@@ -1,19 +1,20 @@
-import React, { useEffect } from 'react';
+// import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import InputSearch from './InputSearch';
+// import { loadAllCountries } from '../redux/Countries';
 
 function Continent() {
   const conuntries = useSelector((state) => state.allCountries);
-  const dispatch = useDispatch();
-  // console.log(conuntries);
-  useEffect(() => {
-    if (!conuntries.length) {
-
-    }
-  });
+  // const dispatch = useDispatch();
+  // useEffect(() => {
+    //   if (!conuntries.length) {
+  //     dispatch(loadAllCountries())
+  //   }
+  // });
+    console.log(conuntries)
   const newReturn = async (event, param) => {
-    const country = `https://restcountries.com/v3.1/name/${param}`;
+    // const country = `https://restcountries.com/v3.1/name/${param}`;
     // console.log(event);
     // console.log(param);
     const response = await axios.get(country);
