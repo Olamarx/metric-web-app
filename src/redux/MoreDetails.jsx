@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const contries = () => 'https://restcountries.com/v3.1/all';
+const contries = (param) => `https://restcountries.com/v3.1/name/${param}`;
 
 const Actions = {
   LOAD: 'details/countries/LOAD',
@@ -8,45 +8,27 @@ const Actions = {
 
 const initialize = [];
 
-const reducer = (state = initialize, action) => {
+const countryReducer = (state = initialize, action) => {
   switch (action.type) {
     case Actions.LOAD:
-      return [ ...action.payLoad ];
+      return [...action.payLoad];
     default:
       return state;
   }
 };
 
-export const loadAllCountries = () => async (dispatch) => {
-  const response = await axios.get(contries());
+export const loadCountry = (param) => async (dispatch) => {
+  const response = await axios.get(contries('nigeria'));
   const result = await response.data;
-  const worldCountries = [];
-  result.forEach((country) => {
-    const name = country.name.official
-    const flag = country.flags.png
-    worldCountries.push({
-      name,
-      flag,
-    });
-  });
-  console.log(worldCountries)
-
+  console.log(param)
+  const output = result.map((country) => country.name.common || country.name.official === dispatch);
+  // console.log(output);
   if (response.status === 200) {
     dispatch({
       type: Actions.LOAD,
-      payLoad: worldCountries,
+      payLoad: output,
     });
   }
 };
 
-export default reducer;
-
-// export const APIContinent = async () => {
-//   const endPoint = await axios.get('');
-//   console.log(endPoint.data);
-// };
-
-// export const APICountry = async (name) => {
-//   const endPoint = await axios.get(`https://restcountries.com/v2/name/${name}`);
-//   console.log(endPoint.data);
-// };
+export default countryReducer;
