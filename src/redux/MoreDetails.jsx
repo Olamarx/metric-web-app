@@ -18,11 +18,9 @@ const countryReducer = (state = initialize, action) => {
 };
 
 export const loadCountry = (param) => async (dispatch) => {
-  const response = await axios.get(contries('nigeria'));
+  const response = await axios.get(contries(param));
   const result = await response.data;
-  console.log(param)
-  const output = result.map((country) => country.name.common || country.name.official === dispatch);
-  // console.log(output);
+  const output = result.map((country) => country.name.common);
   if (response.status === 200) {
     dispatch({
       type: Actions.LOAD,
