@@ -1,73 +1,67 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Metric Web App
 
-> Description the project.
+> This is a metric web app which is responsive. It renders data from two different APIs. It is a react and redux app.
 
 
 ## Built With
+- React
+- Redux
+- Jest and react-testing-library
+- Gitflow
+- Axios
+- Open Weather Map API [Air Pollution API](https://openweathermap.org/api/air-pollution)
+- [Countries API](https://restcountries.com/)
+- Deployed with Netlify
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+## Live Demos
+- [Netlify](https://62e4251a4b271a000956fc3d--famous-gnome-0e9343.netlify.app)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To have a local copy of the code, follow the following steps:
 
 ### Prerequisites
+- A web browser (like Google Chrome, Opera...).
+- A code editor (like Atom, VScode...).
 
 ### Setup
+To setup the project locally: clone the repository using:
 
-### Install
+```
+https://github.com/Olamarx/metric-web-app.git
+```
 
-### Usage
+### Install dependencies
+run : `npm install`
 
-### Run tests
+### Build the app
+run: `npm run build`
 
-### Deployment
+### Run the app
+run: `npm start`
 
 
+## Author
+👤 **Owoeye Olaoluwa (Olamarx)**
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Olamarx)
+- Twitter: [@twitterhandle](https://twitter.com/Owoeye0laoluwa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olaoluwa-owoeye-617702162/)
+- Facebook: [Facebook](https://web.facebook.com/olaoluwa.owoeye.39)
 
 ## 🤝 Contributing
-
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues](https://github.com/Olamarx/metric-web-app/issues) page.
+
+## [Template on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29) by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 
 ## Show your support
-
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
 
 ## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.

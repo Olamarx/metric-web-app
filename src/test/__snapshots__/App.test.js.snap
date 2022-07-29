@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Body of the whole landing page matching snapshot 1`] = `<div />`;
+
+exports[`matching snapshot 1`] = `<div />`;

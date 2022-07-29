@@ -1,0 +1,105 @@
+.countries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(232, 35, 67);
+}
+
+.inPut-value {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.search {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+
+.selectContinent {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+
+.countriesListing {
+  list-style: none;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  margin-right: 0;
+}
+
+.indCountry {
+  width: 150px;
+  height: 150px;
+}
+
+.indCountry a {
+  color: white;
+}
+
+.twoImages {
+  width: 200px;
+  display: flex;
+  gap: 10px;
+}
+
+.imageStyle {
+  width: 70px;
+  height: 70px;
+}
+
+.noCOA {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.coatOfArm {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}
+
+.moreInfo {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 992px) {
+  .imageStyle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .moreInfo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .coatOfArm {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+  }
+
+  .countriesListing {
+    list-style: none;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 80px;
+  }
+}
