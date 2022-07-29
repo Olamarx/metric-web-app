@@ -1,4 +1,5 @@
 .wholeClass {
+  height: 100vh;
   background-color: pink;
   display: flex;
   flex-direction: column;
@@ -9,11 +10,11 @@
 .navStyle {
   margin-left: 150px;
   margin-top: 50px;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .date {
-  font-size: 30px;
+  font-size: 15px;
   margin-top: 50px;
 }
 
@@ -52,7 +53,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  gap: 50px;
+  gap: 20px;
 }
 
 .indLI {
@@ -63,8 +64,37 @@
 }
 
 .no-coatOfArm {
+  width: 200px;
+  height: 200px;
+  font-size: 12px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .date {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .wholeStat ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+.no-coatOfArm {
   width: 300px;
   height: 300px;
   font-size: 20px;
   margin-top: 20px;
+}
+
+  .navStyle {
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 40px;
+  }
+  
 }
