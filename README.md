@@ -16,7 +16,7 @@
 - Deployed with Netlify
 
 ## Live Demos
-- [Netlify](https://62e4251a4b271a000956fc3d--famous-gnome-0e9343.netlify.app/continents)
+- [Netlify](https://62e4251a4b271a000956fc3d--famous-gnome-0e9343.netlify.app)
 
 ## Getting Started
 To have a local copy of the code, follow the following steps:
