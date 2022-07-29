@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The indivial page of the app countires renders properly 1`] = `
+<div
+  className="countries"
+>
+  <div
+    className="inPut-value"
+  >
+    <input
+      className="search"
+      onChange={[Function]}
+      placeholder="Search for Countries"
+      type="text"
+      value=""
+    />
+    <select
+      className="selectContinent"
+      onChange={[Function]}
+      value="africa"
+    >
+      <option
+        value="Africa"
+      >
+        Africa
+      </option>
+      <option
+        value="Americas"
+      >
+        Americas
+      </option>
+      <option
+        value="Asia"
+      >
+        Asia
+      </option>
+      <option
+        value="Europe"
+      >
+        Europe
+      </option>
+      <option
+        value="Oceania"
+      >
+        Oceania
+      </option>
+    </select>
+  </div>
+  <ul
+    className="countriesListing"
+  >
+    <div
+      className="ui active dimmer"
+    >
+      <div
+        className="ui big text loader"
+      >
+        Loading...
+      </div>
+    </div>
+  </ul>
+</div>
+`;
