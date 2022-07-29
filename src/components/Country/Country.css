@@ -1,0 +1,70 @@
+.wholeClass {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navStyle {
+  margin-left: 150px;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.date {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.twoImg {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.twoImg img {
+  width: 200px;
+  height: 200px;
+}
+
+.countryInd {
+  width: 500px;
+  height: 500px;
+}
+
+.countryCoat {
+  width: 300px;
+  height: 300px;
+}
+
+.wholeStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wholeStat ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.indLI {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.no-coatOfArm {
+  width: 300px;
+  height: 300px;
+  font-size: 20px;
+  margin-top: 20px;
+}

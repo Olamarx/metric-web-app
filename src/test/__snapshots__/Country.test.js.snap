@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The indivial page of the app countires renders properly 1`] = `
+<div
+  className="wholeClass"
+>
+  <div
+    className="navStyle"
+  >
+    <a
+      className=""
+      href="/continents"
+      onClick={[Function]}
+    >
+      <span>
+        AFRICA
+      </span>
+    </a>
+    <span>
+       &lt;&lt;&lt;&lt;&lt; 
+    </span>
+  </div>
+  <div
+    className="date"
+  >
+    <span>
+      As at
+       Invalid Date
+        
+    </span>
+    <span>
+       's Population is undefined
+    </span>
+    <div
+      className="twoImg"
+    >
+      <img
+        alt=""
+        className="countryInd"
+      />
+      <div
+        className="no-coatOfArm"
+      >
+        The Coat of Arm for 
+                is yet to be added, please check back later.
+      </div>
+    </div>
+    <div
+      className="ui active dimmer"
+    >
+      <div
+        className="ui big text loader"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>
+</div>
+`;
