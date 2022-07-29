@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { setCountry } from '../../redux/country/country';
 import { getpollution, removePollution } from '../../redux/currentPollution/currentPollution';
 import Damages from '../damages/Damages';
@@ -41,7 +43,10 @@ function Country() {
           to="/continents"
           onClick={revert}
         >
-          <span>{continent.toUpperCase()}</span>
+          <span>
+            <FontAwesomeIcon icon={faArrowLeft} />
+            {continent.toUpperCase()}
+          </span>
         </NavLink>
         <span>{` <<<<< ${country.name}`}</span>
       </div>
