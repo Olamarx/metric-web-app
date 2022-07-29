@@ -71,6 +71,10 @@
 }
 
 @media screen and (min-width: 992px) {
+  .wholeClass {
+    height: 110vh;
+  }
+
   .date {
     font-size: 30px;
     margin-top: 50px;
