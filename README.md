@@ -2,7 +2,7 @@
 
 # Metric Web App
 
-> This is a metric web app which is responsive. It renders data from two different APIs. It is a reach and redux app.
+> This is a metric web app which is responsive. It renders data from two different APIs. It is a react and redux app.
 
 
 ## Built With
