@@ -83,9 +83,9 @@ function Continents() {
                     {country.coatOfArm ? (
                       <img className="coatOfArm" src={country.coatOfArm} alt={`${country.name} Coat of arm`} />
                     ) : (
-                      <div>
+                      <div className="noCOA">
                         No Coat of Arm now,
-                        checkback later.
+                        check back later.
                       </div>
                     ) }
 
