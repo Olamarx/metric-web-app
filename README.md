@@ -16,7 +16,7 @@
 - Deployed with Netlify
 
 ## Live Demos
-- [Netlify](https://62e4251a4b271a000956fc3d--famous-gnome-0e9343.netlify.app)
+- [Netlify](https://world-metric.netlify.app)
 
 ## Getting Started
 To have a local copy of the code, follow the following steps:
